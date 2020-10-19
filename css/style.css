@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.header {
+  height: 100%;
+  background-image: url(../img/designer_1.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+@media (max-width: 800px) {
+  .header {
+    background-image: none;
+  }
+}
+@media (max-width: 750px) {
+  .header {
+    padding-bottom: 0;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+nav {
+  margin-bottom: 261px;
+}
+@media (max-width: 750px) {
+  nav {
+    margin-bottom: 50px;
+  }
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 750px) {
+  .nav_list {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+.nav_list ul, .nav_list li {
+  display: flex;
+}
+.nav_list li {
+  padding-top: 18px;
+}
+
+.nav-link {
+  color: #505F98;
+  font-size: 14px;
+}
+
+.nav_logo {
+  color: #37447E;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.nav_button {
+  border-radius: 2px;
+  background-color: #111B47;
+  color: #FFFFFF;
+  align-items: center;
+  cursor: pointer;
+  width: 160px;
+  height: 26px;
+}
+
+.header_info {
+  padding-bottom: 386px;
+}
+@media (max-width: 750px) {
+  .header_info {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.header_text h2 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #091133;
+  margin-bottom: 20px;
+}
+.header_text p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+}
+.header_text .paragraph {
+  padding-bottom: 69px;
+}
+.header_text .primary {
+  border-radius: 2px;
+  background-color: #111B47;
+  color: #FFFFFF;
+  align-items: center;
+  cursor: pointer;
+  width: 189px;
+  height: 36px;
+  margin-right: 30px;
+}
+@media (max-width: 360px) {
+  .header_text .primary {
+    width: 150px;
+  }
+}
+.header_text .light {
+  border-radius: 2px;
+  width: 189px;
+  height: 36px;
+  border: 2px solid #091133;
+  align-items: center;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #091133;
+  cursor: pointer;
+}
+@media (max-width: 360px) {
+  .header_text .light {
+    width: 150px;
+  }
+}
+@media (max-width: 750px) {
+  .header_text .light {
+    margin-top: 20px;
+  }
+}
+
+.main__section {
+  padding-top: 109px;
+  padding-bottom: 108px;
+}
+@media (max-width: 750px) {
+  .main__section {
+    padding-top: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.main__section .main__img img {
+  width: 100%;
+}
+.main__section h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+@media (max-width: 750px) {
+  .main__section h2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.main__section p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #505F98;
+}
+.main__section .main__text {
+  padding-bottom: 80px;
+  padding-top: 16px;
+}
+.main__section .icon__info h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #091133;
+}
+.main__section .icon__info p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5D6970;
+}
+
+.describe__section {
+  padding-top: 123px;
+}
+
+.describe__section_img img {
+  width: 100%;
+}
+
+.describe__column {
+  display: flex;
+  padding-bottom: 222px;
+}
+
+.describe__section_text {
+  align-self: center;
+}
+.describe__section_text h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+.describe__section_text p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #505F98;
+}
+
+.describe__section_btn {
+  border-radius: 2px;
+  background-color: #111B47;
+  color: #FFFFFF;
+  align-items: center;
+  cursor: pointer;
+  width: 150px;
+  height: 32px;
+}
+
+.section__price {
+  padding-top: 237px;
+  padding-bottom: 172px;
+  background-image: url(../img/Fon.png);
+  background-repeat: no-repeat;
+}
+@media (max-width: 750px) {
+  .section__price {
+    background-image: none;
+    padding-top: 0;
+  }
+}
+
+.price_info {
+  margin: 0 auto;
+  text-align: center;
+}
+.price_info .price_btn {
+  border-radius: 2px;
+  background-color: #111B47;
+  color: #FFFFFF;
+  align-items: center;
+  cursor: pointer;
+  width: 189px;
+  height: 32px;
+}
+.price_info h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+.price_info p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #505F98;
+}
+.price_info .price h4 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #222F65;
+}
