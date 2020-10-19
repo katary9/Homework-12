@@ -295,3 +295,52 @@ nav {
   color: #5D6970;
   margin: 0;
 }
+
+.section__footer {
+  background: #E7ECFF;
+}
+
+.footer__nav {
+  padding: 0;
+}
+
+@media (max-width: 750px) {
+  .footer__nav_list {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+.footer__nav_list ul, li {
+  display: flex;
+}
+
+.footer__nav_button {
+  border-radius: 2px;
+  background-color: #111B47;
+  color: #FFFFFF;
+  align-items: center;
+  cursor: pointer;
+  width: 109px;
+  height: 26px;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+.footer__menu .copyright {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
+}
+
+.list_item {
+  font-size: 14px;
+  line-height: 24px;
+  color: #929ECC;
+}

@@ -14,6 +14,11 @@ $black_color: #5D6970;
     line-height: 26px;
     color: $main_color;
 }
+@mixin sm-font {
+    font-size: 14px;
+    line-height: 24px;
+}
+
 @mixin title {
     font-style: normal;
     font-weight: 500;
@@ -27,6 +32,12 @@ $black_color: #5D6970;
     color: #FFFFFF;
     align-items: center;
     cursor: pointer;
+}
+@mixin logo {
+     color: $logo_color;
+     font-weight: 900;
+     font-size: 26px;
+     line-height: 38px;
 }
 
 body {
@@ -87,10 +98,7 @@ nav{
 }
 
 .nav_logo {
-    color: $logo_color;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 38px;
+    @include logo;
 }
 .nav_button {
     @include btnBlu;
@@ -262,13 +270,49 @@ nav{
     }
     }
     .price_btns p {
-        font-size: 14px;
-        line-height: 24px;
+        @include sm-font;
         color: $black_color;
         margin: 0;
     }
+}
+.section__footer {
+    background: #E7ECFF;
+}
+.footer__nav {
+    padding: 0;
+}
+.footer__nav_list {
+    @media (max-width: 750px) {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+.footer__nav_list ul, li {
+    display: flex;
     
+   
+}
+.footer__nav_button {
+    @include btnBlu;
+    width: 109px;
+    height: 26px;
+}
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 61px;
+    padding-bottom: 40px;
+    .copyright {
+        font-weight: 500;
+        @include sm-font;
+        color: #939EA4;
 
+    }
+}
+.list_item {
+    @include sm-font;
+    color: #929ECC;
 }
 
 
