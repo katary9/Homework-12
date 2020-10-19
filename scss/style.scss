@@ -237,7 +237,7 @@ nav{
     }
 }
 .price_info {
-    margin: 0 auto;
+    
     text-align: center;
     .price_btn {
         @include btnBlu;
@@ -250,7 +250,9 @@ nav{
     p {
         @include font;
     }
-    .price h4 {
+    .price{
+        padding-bottom: 60px;
+        h4 {
         font-weight: 500;
         font-size: 50px;
         line-height: 66px;
@@ -258,6 +260,15 @@ nav{
         letter-spacing: 1px;
         color: #222F65;
     }
+    }
+    .price_btns p {
+        font-size: 14px;
+        line-height: 24px;
+        color: $black_color;
+        margin: 0;
+    }
+    
+
 }
 
 

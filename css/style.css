@@ -254,7 +254,6 @@ nav {
 }
 
 .price_info {
-  margin: 0 auto;
   text-align: center;
 }
 .price_info .price_btn {
@@ -279,6 +278,9 @@ nav {
   line-height: 26px;
   color: #505F98;
 }
+.price_info .price {
+  padding-bottom: 60px;
+}
 .price_info .price h4 {
   font-weight: 500;
   font-size: 50px;
@@ -286,4 +288,10 @@ nav {
   text-align: center;
   letter-spacing: 1px;
   color: #222F65;
+}
+.price_info .price_btns p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #5D6970;
+  margin: 0;
 }
