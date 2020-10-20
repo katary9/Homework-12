@@ -267,6 +267,7 @@ ul {
   padding-top: 237px;
   padding-bottom: 172px;
   background-image: url(../img/Fon.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 @media (max-width: 750px) {
